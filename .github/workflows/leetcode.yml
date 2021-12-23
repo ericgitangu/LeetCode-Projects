@@ -13,6 +13,6 @@ jobs:
     - name: Sync
       uses: joshcai/leetcode-sync@v1.3
       with:
-        github-token: ${{ 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 }}
+        github-token: ${{ secrets.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 }}
         leetcode-csrf-token: ${{ secrets.JidFglg55QAHD3BkwkwoQmXetb6vj0wDwBt6y2t1quMgAMOd0fTscUARqpepCggp }}
         leetcode-session: ${{ secrets.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiNjM1NzIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWxsYXV0aC5hY2NvdW50LmF1dGhfYmFja2VuZHMuQXV0aGV }}
