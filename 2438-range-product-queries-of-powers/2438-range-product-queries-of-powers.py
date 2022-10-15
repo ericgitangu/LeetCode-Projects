@@ -1,6 +1,6 @@
 class Solution:
     def productQueries(self, n: int, queries: List[List[int]]) -> List[int]:
-        x = reversed(bin(n)[2:])
+        x = bin(n)[2:][::-1]
         powers = []
         for i, b in enumerate(x):
             val = int(b)
