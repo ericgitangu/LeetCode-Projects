@@ -6,12 +6,7 @@ class Solution:
             val = int(b)
             if val:
                 powers.append(val*(2**i))
-        ans = []
-        for query in queries:
-            power = 1
-            for i in range(query[0], query[1]+1):
-                power *= powers[i]
-            ans.append(power%((10**9) +7))   
+        ans = [math.prod(powers[l:r+1])%((10**9) +7) for l, r in queries]
         return ans
             
             
