@@ -1,0 +1,8 @@
+Input: arrival = [0,1,1,2,4], state = [0,1,0,0,1]
+Output: [0,3,1,2,4]
+Explanation: At each second we have the following:
+- At t = 0: Person 0 is the only one who wants to enter, so they just enter through the door.
+- At t = 1: Person 1 wants to exit, and person 2 wants to enter. Since the door was used the previous second for entering, person 2 enters.
+- At t = 2: Person 1 still wants to exit, and person 3 wants to enter. Since the door was used the previous second for entering, person 3 enters.
+- At t = 3: Person 1 is the only one who wants to exit, so they just exit through the door.
+- At t = 4: Person 4 is the only one who wants to exit, so they just exit through the door.
