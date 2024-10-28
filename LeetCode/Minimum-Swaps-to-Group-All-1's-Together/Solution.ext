@@ -1,0 +1,7 @@
+Input: data = [1,0,1,0,1]
+Output: 1
+Explanation: There are 3 ways to group all 1's together:
+[1,1,1,0,0] using 1 swap.
+[0,1,1,1,0] using 2 swaps.
+[0,0,1,1,1] using 1 swap.
+The minimum is 1.
