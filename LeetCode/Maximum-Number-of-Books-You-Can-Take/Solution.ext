@@ -1,0 +1,9 @@
+Input: books = [8,5,2,7,9]
+Output: 19
+Explanation:
+- Take 1 book from shelf 1.
+- Take 2 books from shelf 2.
+- Take 7 books from shelf 3.
+- Take 9 books from shelf 4.
+You have taken 19 books, so return 19.
+It can be proven that 19 is the maximum number of books you can take.
