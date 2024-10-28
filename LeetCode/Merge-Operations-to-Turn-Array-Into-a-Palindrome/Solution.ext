@@ -1,0 +1,7 @@
+Input: nums = [4,3,2,1,2,3,1]
+Output: 2
+Explanation: We can turn the array into a palindrome in 2 operations as follows:
+- Apply the operation on the fourth and fifth element of the array, nums becomes equal to [4,3,2,3,3,1].
+- Apply the operation on the fifth and sixth element of the array, nums becomes equal to [4,3,2,3,4].
+The array [4,3,2,3,4] is a palindrome.
+It can be shown that 2 is the minimum number of operations needed.
