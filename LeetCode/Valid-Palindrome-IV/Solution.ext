@@ -1,0 +1,5 @@
+Input: s = "abcdba"
+Output: true
+Explanation: One way to make s a palindrome using 1 operation is:
+- Change s[2] to 'd'. Now, s = "abddba".
+One operation could be performed to make s a palindrome so return true.
