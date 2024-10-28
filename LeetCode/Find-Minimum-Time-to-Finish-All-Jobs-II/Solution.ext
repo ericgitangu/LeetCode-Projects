@@ -1,0 +1,8 @@
+Input: jobs = [5,2,4], workers = [1,7,5]
+Output: 2
+Explanation:
+- Assign the 2nd worker to the 0th job. It takes them 1 day to finish the job.
+- Assign the 0th worker to the 1st job. It takes them 2 days to finish the job.
+- Assign the 1st worker to the 2nd job. It takes them 1 day to finish the job.
+It takes 2 days for all the jobs to be completed, so return 2.
+It can be proven that 2 days is the minimum number of days needed.
