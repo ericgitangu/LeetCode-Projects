@@ -1,0 +1,5 @@
+Input: nums = [2,3,6,5,2,3], k = 2
+Output: 2
+Explanation: There are only two 2-big indices in nums:
+- i = 2 --> There are two valid idx1: 0 and 1. There are three valid idx2: 2, 3, and 4.
+- i = 3 --> There are two valid idx1: 0 and 1. There are two valid idx2: 3 and 4.
