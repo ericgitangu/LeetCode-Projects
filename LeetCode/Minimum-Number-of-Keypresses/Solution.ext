@@ -1,0 +1,9 @@
+Input: s = "apple"
+Output: 5
+Explanation: One optimal way to setup your keypad is shown above.
+Type 'a' by pressing button 1 once.
+Type 'p' by pressing button 6 once.
+Type 'p' by pressing button 6 once.
+Type 'l' by pressing button 5 once.
+Type 'e' by pressing button 3 once.
+A total of 5 button presses are needed, so return 5.
